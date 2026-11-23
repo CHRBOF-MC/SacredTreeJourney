@@ -58,7 +58,7 @@ execute as @e[tag=411tag2,distance=..40] at @s if score @s sumN = @p[tag=playgo]
 execute as @e[tag=411tag3,distance=..40] at @s if score @s sumN = @p[tag=playgo] sumN run scoreboard players set m411_3 zTEST 1
 execute as @e[tag=411tag4,distance=..40] at @s if score @s sumN = @p[tag=playgo] sumN run scoreboard players set m411_4 zTEST 1
 execute as @e[tag=411tag4,distance=..40] at @s if score @s sumN = @p[tag=playgo] sumN if score m411 zTEST matches -329.. run scoreboard players set m411 zTEST -329
-execute unless entity @e[tag=411tag4,distance=..100] if score m411 zTEST matches -499..-330 as @a[tag=playgo] at @s run function soso:task/task/mainday
+execute unless entity @e[tag=411tag4,distance=..100] if score m411 zTEST matches -499..-330 as @e[tag=playgo] at @s run function soso:task/task/mainday
 execute unless entity @e[tag=411tag4,distance=..100] if score m411 zTEST matches -499..-330 run scoreboard players set m411 zTEST -500
 
 

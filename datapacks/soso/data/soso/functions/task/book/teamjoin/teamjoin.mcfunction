@@ -65,6 +65,7 @@ execute if score @s teamjoin matches 216 run function soso:item/craf/crafbook/or
 execute if score @s teamjoin matches 217 run function soso:item/craf/crafbook/armor
 execute if score @s teamjoin matches 218 run function soso:item/craf/crafbook/hand
 execute if score @s teamjoin matches 219 run function soso:item/craf/crafbook/water
+execute if score @s teamjoin matches 220 run function soso:item/craf/crafbook/ex
 
 
 execute if score @s teamjoin matches 299 run function soso:task/book/teamjoin/299

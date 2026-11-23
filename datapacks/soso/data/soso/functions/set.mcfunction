@@ -1037,6 +1037,7 @@ scoreboard players set 199 zTEST 199
 scoreboard players set 200 zTEST 200
 scoreboard players set 360 zTEST 360
 scoreboard players set 100 zTEST 100
+scoreboard players set 160 zTEST 160
 scoreboard players set 200 zTEST 200
 scoreboard players set 300 zTEST 300
 scoreboard players set 400 zTEST 400

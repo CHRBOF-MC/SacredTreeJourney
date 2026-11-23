@@ -13,7 +13,7 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["magice24003up","goout"],Duratio
 summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["magice24003up","goout"],Duration:21,Rotation:[324f,0f]}
 
 
-scoreboard players set Mhurt Madd 500
+scoreboard players set Mhurt Madd 1000
 function soso:skill/magic/hurt
 scoreboard players add hurt zTEST 1000
 scoreboard players operation Mhurt Madd *= hurt zTEST

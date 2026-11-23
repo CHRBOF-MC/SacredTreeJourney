@@ -4,7 +4,7 @@ summon minecraft:marker ~ ~ ~ {Tags:["magicl24003","goon","par15sclear"]}
 
 
 
-scoreboard players set Mhurt Madd 20
+scoreboard players set Mhurt Madd 40
 function soso:skill/magic/hurt
 scoreboard players add hurt zTEST 1000
 scoreboard players operation Mhurt Madd *= hurt zTEST

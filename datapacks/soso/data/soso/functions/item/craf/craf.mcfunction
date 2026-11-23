@@ -455,6 +455,30 @@ function soso:item/craf/225
 #魔力碑石(修復)g2
 function soso:item/craf/226
 #封魔黑玉
+function soso:item/craf/227
+#噬狐牙塊
+function soso:item/craf/228
+#無盡錠
+function soso:item/craf/229
+#無盡塊
+function soso:item/craf/230
+#無盡木材
+function soso:item/craf/231
+#無盡棍
+function soso:item/craf/232
+#無盡魔力核心
+function soso:item/craf/233
+#無盡斬劍
+function soso:item/craf/234
+#無盡滅劍
+function soso:item/craf/235
+#無盡殲斧
+function soso:item/craf/236
+#無盡貫弓
+function soso:item/craf/237
+#無盡穿弩
+function soso:item/craf/238
+#無盡絕杖
 
 
 
@@ -489,6 +513,12 @@ function soso:item/craf/226
 #{"font":"soso:default","color":"white","text":"\\u104e","hoverEvent":{"action":"show_text","contents":{"translate":"soso.string.1764","color":"red","bold":"true"}}},
 
 
+#{"font":"soso:default","color":"white","text":"\\u1088","hoverEvent":{"action":"show_text","contents":{"text":"噬狐牙塊","color":"red","bold":"true"}}},
+#{"font":"soso:default","color":"white","text":"\\u1089","hoverEvent":{"action":"show_text","contents":{"text":"無盡錠","color":"gold","bold":"true"}}},
+#{"font":"soso:default","color":"white","text":"\\u108a","hoverEvent":{"action":"show_text","contents":{"text":"無盡木材","color":"gold","bold":"true"}}},
+#{"font":"soso:default","color":"white","text":"\\u108b","hoverEvent":{"action":"show_text","contents":{"text":"無盡棍","color":"gold","bold":"true"}}},
+#{"font":"soso:default","color":"white","text":"\\u108c","hoverEvent":{"action":"show_text","contents":{"text":"無盡魔力核心","color":"gold","bold":"true"}}},
+#{"font":"soso:default","color":"white","text":"\\u108d","hoverEvent":{"action":"show_text","contents":{"text":"無盡塊","color":"gold","bold":"true"}}},
 
 
 

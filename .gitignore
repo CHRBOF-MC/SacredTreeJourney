@@ -3,7 +3,8 @@
 *.lnk
 
 !/.gitignore
-!/datapacks
+!/spyglass.json
+!/datapacks/
 
-/datapacks/aqua
-/datapacks/bukkit
+/datapacks/aqua/
+/datapacks/bukkit/

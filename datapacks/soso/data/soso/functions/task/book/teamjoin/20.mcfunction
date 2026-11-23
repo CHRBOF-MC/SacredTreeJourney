@@ -27,7 +27,7 @@ tellraw @s[advancements={soso:mob/body9=true}] [{"translate":"soso.string.3287",
 tellraw @s[advancements={soso:mob/body9=true}] {"translate":"soso.string.3454","color":"white","bold":false}
 tellraw @s[advancements={soso:mob/body9=true}] {"translate":"soso.string.3455","color":"white","bold":false}
 tellraw @s[advancements={soso:mob/body9=true}] {"translate":"soso.string.3456","color":"white","bold":false}
-tellraw @s[advancements={soso:mob/body9=true}] [{"translate":"soso.string.3457","color":"white","bold":false},{"translate":"soso.string.3458","italic":true,"underlined":false,"color":"yellow","clickEvent":{"action":"run_command","value":"/trigger teamjoin set 21"}}]]
+tellraw @s[advancements={soso:mob/body9=true}] [{"translate":"soso.string.3457","color":"white","bold":false},{"translate":"soso.string.3458","italic":true,"underlined":false,"color":"yellow","clickEvent":{"action":"run_command","value":"/trigger teamjoin set 21"}}]
 
 
 

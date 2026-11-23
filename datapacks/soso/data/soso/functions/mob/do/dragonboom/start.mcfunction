@@ -14,7 +14,7 @@ execute store result score @s cenxx run data get entity @s Rotation[0] 100
 
 
 scoreboard players operation @s cenxx -= @s cenx
-scoreboard players operation @s cenxx /= 40
+scoreboard players operation @s cenxx /= 40 zTEST
 
 
 

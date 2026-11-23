@@ -6,7 +6,7 @@ function soso:task/task/mainday
 
 
 
-tellraw @s [{"translate":"soso.string.3382","color":"gray","bold":false},{"translate":"soso.string.3383","color":"gold","bold":false}]]
+tellraw @s [{"translate":"soso.string.3382","color":"gray","bold":false},{"translate":"soso.string.3383","color":"gold","bold":false}]
 
 
 

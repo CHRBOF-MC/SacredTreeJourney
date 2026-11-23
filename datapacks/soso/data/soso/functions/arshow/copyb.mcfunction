@@ -1,6 +1,6 @@
 
 
-data modify entity @s {} merge from entity @e[limit=1,sort=nearest,tag=arshow] 
+data modify entity @s {} merge from entity @e[limit=1,sort=nearest,tag=arshow]
 
 tag @s remove head
 tag @s remove body

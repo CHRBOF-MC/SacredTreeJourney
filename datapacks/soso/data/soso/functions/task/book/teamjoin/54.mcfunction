@@ -30,7 +30,7 @@ tellraw @s [{"translate":"soso.string.3411","color":"green","bold":false}]
 tellraw @s [{"translate":"soso.string.3412","color":"dark_red","bold":false}]
 tellraw @s [{"translate":"soso.string.3413","color":"dark_red","bold":false}]
 tellraw @s [{"translate":"soso.string.3414","color":"green","bold":false}]
-tellraw @s [{"translate":"soso.string.3415","color":"white","bold":false},{"translate":"soso.string.3416","italic":true,"underlined":false,"color":"yellow","clickEvent":{"action":"suggest_command","value":"/trigger teamjoin set 100"}}]]
+tellraw @s [{"translate":"soso.string.3415","color":"white","bold":false},{"translate":"soso.string.3416","italic":true,"underlined":false,"color":"yellow","clickEvent":{"action":"suggest_command","value":"/trigger teamjoin set 100"}}]
 
 
 

@@ -6,5 +6,5 @@ tag @s remove sback
 tag @s remove uback
 tag @s remove backtnt
 tp @s @e[limit=1,tag=backtntpoint]
-schedule clear function soso:test/tntb
+schedule clear soso:test/tntb
 kill @e[tag=backtntpoint]

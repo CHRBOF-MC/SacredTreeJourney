@@ -123,7 +123,7 @@ kill @e[limit=1,distance=39..41,nbt={Item:{tag:{attributetalk:1b}}}]
 execute store result entity @s Item.tag.typeset.lorelong double 1 run scoreboard players get lorelong zTEST
 
 
-data modify entity @s Item.tag.display.Lore
+
 data modify entity @s Item.tag.typeset.Lore set from entity @s Item.tag.display.Lore
 
 

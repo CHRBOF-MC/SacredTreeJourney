@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:copper_ingot"
+		},
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false,
+		"title": {
+			"translate": "soso.string.5993"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5994",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5995",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5996",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5563",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5542",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5958",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magicl/17002",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

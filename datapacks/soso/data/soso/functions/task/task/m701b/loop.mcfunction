@@ -1,0 +1,21 @@
+
+
+
+execute at @p[scores={rankc=9},tag=start] run function soso:task/task/m701b/loopb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

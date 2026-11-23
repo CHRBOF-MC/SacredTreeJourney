@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_eye"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5499"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5785",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5525",
+				"color": "dark_blue"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5443",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5444",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5777",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/bow/21001",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

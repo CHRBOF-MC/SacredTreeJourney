@@ -1,0 +1,48 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": "         ",
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "num"
+					},
+					"score": "zTEST",
+					"scale": 1
+				},
+				"range": {
+					"min": 10,
+					"max": 99
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": "          ",
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "num"
+					},
+					"score": "zTEST",
+					"scale": 1
+				},
+				"range": {
+					"min": 0,
+					"max": 9
+				}
+			}
+		]
+	}
+]

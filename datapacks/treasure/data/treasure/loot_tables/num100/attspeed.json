@@ -1,0 +1,80 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dark_oak_sign",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": "§e紅隊倉庫"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{attributetalk:1b}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.438",
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "num100",
+											"objective": "point"
+										},
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.330",
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "num10",
+											"objective": "point"
+										},
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "num",
+											"objective": "point"
+										},
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.429",
+										"color": "aqua",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

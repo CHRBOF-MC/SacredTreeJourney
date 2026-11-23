@@ -1,0 +1,28 @@
+{
+	"__comment": "5000",
+	"display": {
+		"icon": {
+			"item": "minecraft:lightning_rod"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5965"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5966",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5482",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magicl/8001",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

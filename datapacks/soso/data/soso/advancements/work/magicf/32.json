@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.5881"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5875",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5472",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magicf/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

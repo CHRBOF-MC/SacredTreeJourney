@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{craflore:1b}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": [
+								{
+									"selector": "@e[tag\u003dfirst]"
+								},
+								{
+									"translate": "soso.string.443",
+									"color": "gold",
+									"bold": false
+								},
+								{
+									"score": {
+										"name": "crafrank",
+										"objective": "zTEST"
+									},
+									"color": "gold",
+									"bold": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

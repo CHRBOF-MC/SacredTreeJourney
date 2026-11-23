@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_hoe",
+			"nbt": "{CustomModelData:1}"
+		},
+		"title": {
+			"translate": "soso.string.6038",
+			"color": "green",
+			"bold": true
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"description": [
+			{
+				"translate": "soso.string.6039",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.6002",
+				"color": "dark_red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/boss11",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

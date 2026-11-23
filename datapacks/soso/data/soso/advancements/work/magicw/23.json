@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.5716"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5710",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5472",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magicw/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

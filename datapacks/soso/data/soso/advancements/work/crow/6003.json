@@ -1,0 +1,55 @@
+{
+	"__comment": "6003",
+	"display": {
+		"icon": {
+			"item": "minecraft:kelp"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5625"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5626",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5535",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5434",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5424",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5591",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/crow/5003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

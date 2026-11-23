@@ -1,0 +1,38 @@
+
+
+tellraw @p[tag=flyer] [
+
+
+{"text":"《村民生態系》：","bold":true,"color":"gray"}
+,{"text":"雪原","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.type set value \"minecraft:snow\""}}
+,{"text":"、沙漠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.type set value \"minecraft:desert\""}}
+,{"text":"、叢林","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.type set value \"minecraft:jungle\""}}
+,{"text":"、平原","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.type set value \"minecraft:plains\""}}
+,{"text":"、莽原","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.type set value \"minecraft:savanna\""}}
+,{"text":"、沼澤","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.type set value \"minecraft:swamp\""}}
+,{"text":"、針葉林","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.type set value \"minecraft:taiga\""}}
+,"\n",{"text":"《村民職業系》：","bold":true,"color":"gray"}
+,{"text":"盔甲匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:armorer\""}}
+,{"text":"、屠夫","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:butcher\""}}
+,{"text":"、製圖師","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:cartographer\""}}
+,{"text":"、神職人員","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:cleric\""}}
+,{"text":"、農夫","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:farmer\""}}
+,{"text":"、漁夫","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:fisherman\""}}
+,{"text":"、製箭師","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:fletcher\""}}
+,{"text":"、傻子","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:nitwit\""}}
+,{"text":"、皮匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:leatherworker\""}}
+,{"text":"、圖書管理員","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:librarian\""}}
+,{"text":"、石匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:mason\""}}
+,{"text":"、失業","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:none\""}}
+,{"text":"、牧羊人","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:shepherd\""}}
+,{"text":"、工具匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:toolsmith\""}}
+,{"text":"、武器匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.VillagerData.profession set value \"minecraft:weaponsmith\""}}
+
+
+
+]
+
+
+
+
+

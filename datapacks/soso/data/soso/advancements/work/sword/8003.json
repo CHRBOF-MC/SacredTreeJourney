@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_sword"
+		},
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false,
+		"title": {
+			"translate": "soso.string.5844"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5845",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5485",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5498",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5816",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/sword/7003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

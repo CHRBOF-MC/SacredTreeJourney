@@ -1,0 +1,28 @@
+{
+	"__comment": "5000",
+	"display": {
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5868"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5869",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5870",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magicf/24003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

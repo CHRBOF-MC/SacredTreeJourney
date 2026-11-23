@@ -1,0 +1,62 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magenta_glazed_terracotta"
+		},
+		"announce_to_chat": true,
+		"title": {
+			"translate": "soso.string.5787"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5788",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5490",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5789",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5492",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5443",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5444",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5777",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/bow/23003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

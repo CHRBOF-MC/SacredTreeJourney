@@ -1,0 +1,61 @@
+{
+	"display": {
+		"title": {
+			"translate": "soso.music.info.name",
+			"with": [
+				{
+					"translate": "soso.music.s5.name"
+				},
+				{
+					"translate": "soso.music.s5.author"
+				}
+			],
+			"color": "gold",
+			"bold": true
+		},
+		"description": [
+			{
+				"translate": "soso.music.info.full",
+				"with": [
+					{
+						"translate": "soso.music.s5.name",
+						"color": "blue"
+					},
+					{
+						"translate": "soso.music.s5.author",
+						"color": "yellow"
+					},
+					{
+						"translate": "soso.music.s5.source",
+						"color": "red"
+					}
+				]
+			}
+		],
+		"icon": {
+			"item": "minecraft:jukebox"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/jungle_planks.png"
+	},
+	"parent": "soso:snd/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"nbt": "{Tags:[\"snd_test\"]}",
+					"location": {
+						"biome": "minecraft:snowy_beach"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:snd/play/s5"
+	}
+}

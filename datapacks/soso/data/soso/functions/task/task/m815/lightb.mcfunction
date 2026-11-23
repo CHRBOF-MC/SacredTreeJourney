@@ -1,0 +1,19 @@
+execute as @e[type=minecraft:text_display,tag=m815score] at @s run function soso:task/task/m815/lightc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

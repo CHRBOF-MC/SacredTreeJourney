@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"announce_to_chat": true,
+		"title": {
+			"translate": "soso.string.5851"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5852",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5556",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5425",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5557",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/sword/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

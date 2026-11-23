@@ -1,0 +1,33 @@
+
+
+tellraw @p[tag=flyer] [
+
+
+{"text":"盔甲架名：","bold":true,"color":"light_purple","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=arshow] CustomName set value '{\"text\":\"盔甲架A\",\"color\":\"blue\"}'"}},{"selector":"@s"}
+,"\n",{"text":"盔甲架修改重置：","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=arset] run function soso:arshow/set/tagclear"}}
+,"\n",{"text":"盔甲架修改設定：","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=arshow] run function soso:arshow/set/tagon"}}
+,{"text":"頭、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add head"}}
+,{"text":"身、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add body"}}
+,{"text":"左腳、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add LL"}}
+,{"text":"右腳、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add RL"}}
+,{"text":"左手、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add LH"}}
+,{"text":"右手、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add RH"}}
+,{"text":"旋轉、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add RT"}}
+,{"text":"位置","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add Pos"}}
+,"\n",{"text":"X軸、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add x"}}
+,{"text":"Y軸、","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add y"}}
+,{"text":"Z軸","bold":false,"color":"blue","clickEvent":{"action":"run_command","value":"/tag @e[limit=1,sort=nearest,tag=arset] add z"}}
+,"\n",{"text":"解鎖盔甲架｜","bold":false,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=arshow] DisabledSlots set value 0"}}
+,{"text":"｜鎖定盔甲架｜","bold":false,"color":"gold","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=arshow] DisabledSlots set value 4144959"}}
+,{"text":"｜大範圍鎖定盔甲架","bold":false,"color":"gold","clickEvent":{"action":"run_command","value":"/execute as @e[sort=nearest,tag=arshow,distance=..30] run data modify entity @s DisabledSlots set value 4144959"}}
+,"\n",{"text":"《隱藏盔甲架》","bold":false,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=arshow] store success entity @s Invisible byte 1 unless data entity @s {Invisible:1b}"}}
+,"\n",{"text":"《複製盔甲架(並進入移動狀態)》","bold":false,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=arshow] at @s run function soso:arshow/copy"}}
+
+
+
+]
+
+
+
+
+

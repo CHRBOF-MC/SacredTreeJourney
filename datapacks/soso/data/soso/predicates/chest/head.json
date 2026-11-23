@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[start]}",
+				"equipment": {
+					"head": {
+						"items": [
+							"minecraft:diamond_helmet"
+						]
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[start]}",
+				"equipment": {
+					"head": {
+						"items": [
+							"minecraft:netherite_helmet"
+						]
+					}
+				}
+			}
+		}
+	]
+}

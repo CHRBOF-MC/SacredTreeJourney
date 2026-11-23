@@ -1,0 +1,26 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5406",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5407"
+		},
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"zombie": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

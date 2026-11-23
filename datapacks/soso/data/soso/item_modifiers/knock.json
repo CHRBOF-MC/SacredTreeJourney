@@ -1,0 +1,15 @@
+[
+	{
+		"function": "minecraft:set_enchantments",
+		"enchantments": {
+			"minecraft:punch": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "knock"
+				},
+				"score": "zTEST"
+			}
+		}
+	}
+]

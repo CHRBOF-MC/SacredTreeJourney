@@ -1,0 +1,19 @@
+
+execute as @e[tag=bestop,type=#soso:bad] at @s run function soso:skill/work/axe/6l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

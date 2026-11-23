@@ -1,0 +1,37 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5410",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5411"
+		},
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"task45": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"player": {
+					"nbt": "{Tags:[res_poison]}"
+				},
+				"effects": {
+					"minecraft:poison": {}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:item/mmax/water/res_poison"
+	},
+	"parent": "soso:root"
+}

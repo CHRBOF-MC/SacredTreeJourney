@@ -1,0 +1,109 @@
+
+
+tellraw @p[tag=flyer] [
+
+
+{"text":"怪物名：","bold":true,"color":"light_purple","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] CustomName set value '{\"text\":\"怪物A\",\"color\":\"blue\"}'"}},{"selector":"@s"}
+,"\n",{"text":"怪物種類設定：","bold":true,"color":"green"}
+,{"text":"殭屍、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[3] set value {id:\"zombie_head\",Count:1b,tag:{mobtype:1b}}"}}
+,{"text":"骷髏、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[3] set value {id:\"skeleton_skull\",Count:1b,tag:{mobtype:2b}}"}}
+,{"text":"苦力怕、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[3] set value {id:\"creeper_head\",Count:1b,tag:{mobtype:3b}}"}}
+,{"text":"蜘蛛、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/17"}}
+,{"text":"洞穴蜘蛛、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/18"}}
+,{"text":"狐狸、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/19"}}
+,{"text":"蜜蜂、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/20"}}
+,{"text":"凋零骷髏、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[3] set value {id:\"wither_skeleton_skull\",Count:1b,tag:{mobtype:4b}}"}}
+,{"text":"狼、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/14"}}
+,{"text":"熊、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/15"}}
+,{"text":"伏守者、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/5"}}
+,{"text":"劫毀獸、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/22"}}
+,{"text":"屍殼、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/6"}}
+,{"text":"豬布獸、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/7"}}
+,{"text":"豬屍獸、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/21"}}
+,{"text":"龍、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/31"}}
+,{"text":"衛道士、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/8"}}
+,{"text":"掠奪者、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/9"}}
+,{"text":"幻術師、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/33"}}
+,{"text":"流髑、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/23"}}
+,{"text":"村民騎士、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/11"}}
+,{"text":"村民、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/12"}}
+,{"text":"深海守衛、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/16"}}
+,{"text":"惱鬼、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/24"}}
+,{"text":"烈焰使者、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/32"}}
+,{"text":"殭屍村民、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/26"}}
+,{"text":"熔岩史萊姆4、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/27"}}
+,{"text":"熔岩史萊姆1、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/29"}}
+,{"text":"熔岩史萊姆0、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/30"}}
+,{"text":"喚魔者、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/28"}}
+,{"text":"鐵巨人、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/25"}}
+,{"text":"蠹魚、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/34"}}
+,{"text":"女巫、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/35"}}
+,{"text":"Johnny、","bold":true,"color":"light_purple","clickEvent":{"action":"run_command","value":"/function soso:mob/mobtype/13"}}
+,"\n",{"text":"生命力","bold":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.AbsorptionAmount set value 20.0f"}}
+,{"nbt":"ArmorItems[0].tag.mob.AbsorptionAmount","entity":"@s","bold":false,"color":"white"}
+,{"text":"攻擊力","bold":true,"color":"dark_red","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Attributes[{Name:\"minecraft:generic.attack_damage\"}].Base set value 20.0d"}}
+,{"nbt":"ArmorItems[0].tag.mob.Attributes[{Name:\"minecraft:generic.attack_damage\"}].Base","entity":"@s","bold":false,"color":"white"}
+,{"text":"抗退力","bold":true,"color":"dark_red","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.knock set value 0.0d"}}
+,{"nbt":"ArmorItems[0].tag.mob.knock","entity":"@s","bold":false,"color":"white"}
+,{"text":"移動力","bold":true,"color":"dark_red","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Attributes[{Name:\"minecraft:generic.movement_speed\"}].Base set value 0.23d"}}
+,{"nbt":"ArmorItems[0].tag.mob.Attributes[{Name:\"minecraft:generic.movement_speed\"}].Base","entity":"@s","bold":false,"color":"white"}
+,"\n",{"text":"遲招陷阱","bold":true,"color":"black","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.delay set value 1b"}}
+,{"nbt":"ArmorItems[0].tag.mob.delay","entity":"@s","bold":false,"color":"white"}
+,{"text":"遲招距離檢查","bold":true,"color":"black","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.delayr set value 1b"}}
+,{"nbt":"ArmorItems[0].tag.mob.delayr","entity":"@s","bold":false,"color":"white"},"\n"
+,{"text":"初遲招延遲","bold":true,"color":"black","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.delayF set value 1b"}}
+,{"nbt":"ArmorItems[0].tag.mob.delayF","entity":"@s","bold":false,"color":"white"},"\n"
+,{"text":"招喚機率","bold":true,"color":"black","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.ramdon set value 100b"}}
+,{"nbt":"ArmorItems[0].tag.mob.ramdon","entity":"@s","bold":false,"color":"white"},"\n"
+,{"text":"怪物Tags","bold":true,"color":"green","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Tags append value "}}
+,{"text":"《消除》","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=mob] if data entity @s ArmorItems[0].tag.mob.Tags[3] run data remove entity @s ArmorItems[0].tag.mob.Tags[-1]"}}
+,{"text":"設定：","bold":true,"color":"green","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Tags append value "}}
+,{"nbt":"ArmorItems[0].tag.mob.Tags","entity":"@s","bold":false,"color":"white"}
+,{"text":"《定位清除》","bold":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/data remove entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Tags[-1]"}},"\n"
+,{"text":"任務限定","bold":true,"color":"green","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Task append value "}}
+,{"nbt":"ArmorItems[0].tag.mob.Task","entity":"@s","bold":false,"color":"white"}
+,{"text":"  消除任務限定","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=mob] run data remove entity @s ArmorItems[0].tag.mob.Task"}}
+,{"text":"  任務編碼","bold":true,"color":"black","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.tasknum set value 47d"}}
+,{"nbt":"ArmorItems[0].tag.mob.tasknum","entity":"@s","bold":false,"color":"white"},"\n"
+,{"text":"關卡編碼","bold":true,"color":"green","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.rank set value 1b"}}
+,{"nbt":"ArmorItems[0].tag.mob.rank","entity":"@s","bold":false,"color":"white"},"\n"
+,{"text":"設定主手物品以","bold":true,"color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set paget zTEST 10"}}
+,{"score":{"name":"paget","objective":"zTEST"},"color":"yellow","bold":false}
+,{"text":"%機率掉落","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/function soso:mob/give/set"}}
+,"\n",{"text":"《清查｜","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/function soso:mob/give/allkill"}}
+,{"text":"｜取得｜","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/function soso:mob/give/all"}}
+,{"text":"｜消除特定｜","bold":true,"color":"gray","clickEvent":{"action":"suggest_command","value":"/data remove entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Loot[-1]"}}
+,{"text":"｜消除最新掉落物》","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/data remove entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Loot[-1]"}}
+,"\n",{"text":"定義主手物品為：","bold":true,"color":"red"}
+,{"text":"《頭盔｜","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function soso:mob/head"}}
+,{"text":"｜鞋子｜","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function soso:mob/boots"}}
+,{"text":"｜副手》","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/function soso:mob/offhand"}}
+,"\n",{"text":"將怪物儲存進蛋中","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/function soso:mob/egg"}}
+,"\n",{"text":"編號怪物設定套用：","bold":true,"color":"aqua","clickEvent":{"action":"suggest_command","value":"/execute as @e[tag=mob,distance=..300,nbt={ArmorItems:[{tag:{mob:{Tags:[\"mob999\"]}}}]}] run item replace entity @s armor.feet from entity @e[limit=1,sort=nearest,tag=mob] armor.feet"}}
+,{"text":"掉落、","bold":true,"color":"aqua","clickEvent":{"action":"suggest_command","value":"/execute as @e[tag=mob,distance=..300,nbt={ArmorItems:[{tag:{mob:{Tags:[\"mob999\"]}}}]}] run data modify entity @s ArmorItems[0].tag.mob.Loot set from entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Loot"}}
+,{"text":"血量、","bold":true,"color":"aqua","clickEvent":{"action":"suggest_command","value":"/execute as @e[tag=mob,distance=..300,nbt={ArmorItems:[{tag:{mob:{Tags:[\"mob999\"]}}}]}] run data modify entity @s ArmorItems[0].tag.mob.AbsorptionAmount set from entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.AbsorptionAmount"}}
+,{"text":"TAGS、","bold":true,"color":"aqua","clickEvent":{"action":"suggest_command","value":"/execute as @e[tag=mob,distance=..300,nbt={ArmorItems:[{tag:{mob:{Tags:[\"mob999\"]}}}]}] run data modify entity @s ArmorItems[0].tag.mob.Tags set from entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Tags"}}
+,{"text":"屬性","bold":true,"color":"aqua","clickEvent":{"action":"suggest_command","value":"/execute as @e[tag=mob,distance=..300,nbt={ArmorItems:[{tag:{mob:{Tags:[\"mob999\"]}}}]}] run data modify entity @s ArmorItems[0].tag.mob.Attributes set from entity @e[limit=1,sort=nearest,tag=mob] ArmorItems[0].tag.mob.Attributes"}}
+,"\n",{"text":"包裹開啟｜","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=mob,distance=..10] at @s run function soso:mob/openmob"}}
+,{"text":"｜包裹關閉","bold":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=mob,distance=..10] at @s run function soso:mob/packmob"}}
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

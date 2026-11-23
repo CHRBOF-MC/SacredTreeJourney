@@ -1,0 +1,43 @@
+give @s written_book{pages:
+
+[
+'[
+{"color":"dark_green","bold":true,"text":"       武器注魔"},
+{"color":"light_purple","bold":false,"text":"    一把追求極致的武器除了附魔外必不可少的就是注魔了。所謂的注魔就是將高純度魔力結晶素材中的魔力強制壓縮進武器裡，使武器形成魔力超載的狀態，以此拓展武器的魔力容積上限。"},"\\n",
+{"color":"light_purple","bold":false,"text":"    注魔武器能透過與使用者的魔力共鳴發揮更強大的攻擊力，斬擊的鋒利、箭矢的貫穿、魔法的威力……一切的一切都能無止境的提升。"}
+]'
+,'[
+{"font":"soso:default","color":"white","text":"\\u1014\\u1014\\u1014","hoverEvent":{"action":"show_text","contents":{"text":"注魔水晶","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u1014","hoverEvent":{"action":"show_text","contents":{"text":"注魔水晶","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1013","hoverEvent":{"action":"show_text","contents":{"text":"任意武器","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1014","hoverEvent":{"action":"show_text","contents":{"text":"注魔水晶","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u1014\\u1014\\u1014","hoverEvent":{"action":"show_text","contents":{"text":"注魔水晶","color":"gold","bold":"true"}}},§r,
+"\\n\\n",
+{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"    注魔合成的配方十分簡單。只需要職業武器以及蘊魔結晶。"},
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"    將武器放置於中央，周圍排放1~8個不等的蘊魔結晶素材。"},"\\n",
+""]'
+,'[
+{"color":"light_purple","bold":false,"text":"        配方雖然簡單但高純度魔力的壓縮不一定能成功，魔力的導出、壓縮全是連一流工匠都難以掌握的工程，只能說注魔鍛造中投入越多魔力越容易成功。"},
+{"color":"light_purple","bold":false,"text":"        而若是注魔失敗不僅不會增加武器的魔力容積，還會受失敗的魔力爆走影響，將辛苦提升的魔力容積給破壞，若要預防此問題，只能將從高強度的怪物身上獲得特殊結晶投入合成。"}
+]'
+,'[
+{"color":"light_purple","bold":false,"text":"        這種高階水晶並不易取得，但若想打造高階注魔武器，必然得投注大量的結晶，保護措施是必要的。"},
+{"color":"light_purple","bold":false,"text":"        儘管困難，但無窮盡的極致武器，關鍵就在注魔上，若想追求極致的最強，就必須挑戰相信你不會錯過的。"},"\\n","\\n","\\n",
+{"color":"light_purple","bold":false,"text":"        ───帝國鍛匠"}
+]'
+
+
+
+],title:"注魔鍛造─武器的極致強化",HideFlags:32,author:"Mana Infusion Forging - Ultimate Enhancement of Weapons"}
+
+
+
+
+
+
+
+
+

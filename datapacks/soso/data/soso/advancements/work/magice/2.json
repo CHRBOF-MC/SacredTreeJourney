@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dirt"
+		},
+		"announce_to_chat": true,
+		"title": {
+			"translate": "soso.string.5944"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5945",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5946",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5947",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5915",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5557",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magice/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

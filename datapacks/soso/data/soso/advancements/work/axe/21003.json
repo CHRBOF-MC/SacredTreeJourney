@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:globe_banner_pattern"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5440"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5441",
+				"color": "dark_blue"
+			},
+			{
+				"translate": "soso.string.5442",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5443",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5444",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5445",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/axe/19003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

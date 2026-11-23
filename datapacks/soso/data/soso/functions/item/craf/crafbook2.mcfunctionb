@@ -1,0 +1,37 @@
+give @s written_book{pages:
+
+[
+'[
+{"text":"     分區目次表","color":"dark_blue","bold":true},"\\n",
+{"text":"     《第三區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 203"}},"\\n",
+{"text":"     《第四區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 204"}},"\\n",
+{"text":"     《第五區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 205"}},"\\n",
+{"text":"     《第六區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 206"}},"\\n",
+{"text":"     《第七區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 207"}},"\\n",
+{"text":"     《第八區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 208"}},"\\n",
+{"text":"     《第九區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 209"}},"\\n",
+{"text":"     《第十區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 210"}},"\\n",
+{"text":"    《第十一區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 211"}},"\\n",
+{"text":"    《第十二區》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 212"}},"\\n",
+""]'
+,'[
+{"text":"     分類目次表","color":"dark_blue","bold":true},"\\n",
+{"text":"   《原材料─上》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 215"}},"\\n",
+{"text":"   《原材料─下》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 216"}},"\\n",
+{"text":"      《防具》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 217"}},"\\n",
+{"text":"      《武具》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 218"}},"\\n",
+{"text":"      《藥水》","color":"dark_blue","bold":true,"clickEvent":{"action":"run_command","value":"/trigger teamjoin set 219"}},"\\n",
+""]'
+
+
+
+],title:"進階鍛造配方書目",HideFlags:32,author:"帝國鍛匠"}
+
+
+
+
+
+
+
+
+

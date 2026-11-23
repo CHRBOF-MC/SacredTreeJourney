@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget"
+		},
+		"title": {
+			"translate": "soso.string.6070",
+			"color": "light_purple",
+			"bold": true
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"description": [
+			{
+				"translate": "soso.string.6071",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.6010",
+				"color": "dark_red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/siue8",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

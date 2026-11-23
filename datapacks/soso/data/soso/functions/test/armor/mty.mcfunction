@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,CustomName:'{"translate":"soso.string.6122","color":"green","bold":"true"}',CustomNameVisible:1b,Pose:{Body:[14f,0f,0f],Head:[344f,0f,0f],LeftLeg:[6f,0f,0f],RightLeg:[356f,10f,0f],LeftArm:[317f,22f,0f],RightArm:[319f,344f,0f]}}

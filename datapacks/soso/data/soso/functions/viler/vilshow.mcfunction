@@ -1,0 +1,24 @@
+tellraw @p[tag=flyer] [ {"translate":"soso.string.2447","bold":true,"color":"light_purple","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=vilshow] CustomName set value '{\"translate\":\"soso.string.2455\",\"color\":\"blue\"}'"}},{"selector":"@s"} ,"\n",{"translate":"soso.string.2448","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.head from entity @s weapon.mainhand"}} ,"\n",{"translate":"soso.string.2449","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.chest from entity @s weapon.mainhand"}} ,"\n",{"translate":"soso.string.2450","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.legs from entity @s weapon.mainhand"}} ,"\n",{"translate":"soso.string.2451","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.feet from entity @s weapon.mainhand"}} ,"\n",{"translate":"soso.string.2452","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] weapon.mainhand from entity @s weapon.mainhand"}} ,"\n",{"translate":"soso.string.2453","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] weapon.offhand from entity @s weapon.mainhand"}} ,"\n",{"translate":"soso.string.2454","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=vilshow] run function soso:viler/type/unbreak"}} ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

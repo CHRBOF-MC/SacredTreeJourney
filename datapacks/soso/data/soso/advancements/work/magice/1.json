@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dirt"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5933"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5628",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5629",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5630",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5934",
+				"color": "white"
+			}
+		],
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

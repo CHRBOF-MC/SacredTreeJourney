@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"nbt": "{work:1b}"
+			},
+			"offhand": {
+				"nbt": "{work:1b}"
+			}
+		}
+	}
+}

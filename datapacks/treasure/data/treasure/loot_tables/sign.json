@@ -1,0 +1,120 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dark_oak_sign",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": "§e元素倉庫"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Shopsell:1b,sign:1b,HideFlags:1,Enchantments:[{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}]}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.0",
+										"color": "white",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.1",
+										"color": "white",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.2",
+										"color": "green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "point1"
+										},
+										"color": "green",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.3",
+										"color": "gold",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "point2"
+										},
+										"color": "gold",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.4",
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "point3"
+										},
+										"color": "aqua",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.5",
+										"color": "yellow",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "point4"
+										},
+										"color": "yellow",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.6",
+										"color": "gold",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

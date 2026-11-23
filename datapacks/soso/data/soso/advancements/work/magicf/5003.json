@@ -1,0 +1,55 @@
+{
+	"__comment": "5003",
+	"display": {
+		"icon": {
+			"item": "minecraft:twisting_vines"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5585"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5525",
+				"color": "dark_blue"
+			},
+			{
+				"translate": "soso.string.5501",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5423",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5424",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5861",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magicf/4003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

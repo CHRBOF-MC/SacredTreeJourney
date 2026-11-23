@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5838"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5839",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5629",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5630",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5840",
+				"color": "white"
+			}
+		],
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

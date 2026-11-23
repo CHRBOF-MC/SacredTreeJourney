@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.6040"
+		},
+		"frame": "challenge",
+		"description": [
+			{
+				"translate": "soso.string.6041",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.6042",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.6043",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.6044",
+				"color": "white"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/body8",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

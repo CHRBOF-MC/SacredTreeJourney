@@ -1,0 +1,31 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:cave_spider",
+		"minecraft:elder_guardian",
+		"minecraft:enderman",
+		"minecraft:ravager",
+		"minecraft:creeper",
+		"minecraft:polar_bear",
+		"minecraft:wolf",
+		"minecraft:bee",
+		"minecraft:husk",
+		"minecraft:hoglin",
+		"minecraft:piglin_brute",
+		"minecraft:endermite",
+		"minecraft:pillager",
+		"minecraft:shulker",
+		"minecraft:fox",
+		"minecraft:phantom",
+		"minecraft:illusioner",
+		"minecraft:magma_cube",
+		"minecraft:evoker",
+		"minecraft:warden",
+		"minecraft:slime",
+		"minecraft:spider",
+		"minecraft:guardian",
+		"minecraft:silverfish",
+		"minecraft:vindicator",
+		"minecraft:witch"
+	]
+}

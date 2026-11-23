@@ -1,0 +1,62 @@
+give @s written_book{pages:
+
+[
+'[
+{"font":"minecraft:default","color":"dark_green","bold":true,"text":"       附魔鍛造"},"\\n",
+{"font":"soso:default","color":"white","text":"\\u100c\\u100c\\u100c","hoverEvent":{"action":"show_text","contents":{"text":"盜掘金貨","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u100c","hoverEvent":{"action":"show_text","contents":{"text":"盜掘金貨","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1015","hoverEvent":{"action":"show_text","contents":{"text":"任意素材","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u100c","hoverEvent":{"action":"show_text","contents":{"text":"盜掘金貨","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u100c\\u100c\\u100c","hoverEvent":{"action":"show_text","contents":{"text":"盜掘金貨","color":"gold","bold":"true"}}},
+"\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"萬物之中蘊含「理」，例如【鐵錠】這一素材，便可從中《鐵製》、《堅固的》、《金屬》…等概念。"},
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"將素材分解為其根源的「理」並附加於武器上便是附魔強化了。"}
+]'
+,'[
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"抽取素材之「理」的方式很簡單，將素材置於中央，外圍圍上一圈提取素材即可。"},
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"一種素材由三種主要的「理」組成，一次提取只能獲得其中之一。"},"\\n",
+""]'
+,'[
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u0010"},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"附魔卷","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1013","hoverEvent":{"action":"show_text","contents":{"text":"任意武器","color":"gold","bold":"true"}}},
+"\\n\\n",
+"\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"blue","bold":true,"text":"《確認提取清單》","clickEvent":{"action":"open_url","value":"https://docs.google.com/spreadsheets/d/1NpIOprmJgrbqNuNYCu7ioWiWiLcFHUWpebW8-jYCW9s/edit#gid=1997466727"}},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"所提取「理」之卷軸，分為兩大類《接頭》《接尾》，可以分別附加在武器之上。"},
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"但同部位卷軸相斥，於武器中附加同部位附魔，將會覆蓋舊附魔效果。"},"\\n",
+""]'
+,'[
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u0010"},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"附魔卷","color":"gold","bold":"true"}}},
+"\\n\\n",
+"\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"    若有不需要的附魔也可透過將附魔卷放入鍛造台中。藉此回收五個提取素材"},"\\n",
+""]'
+,'[
+{"color":"light_purple","bold":false,"text":"        利用素材之理強化武器是簡便而且強大的手段，但要想抽取到強化特定面向的附魔就得對各類素材多方嘗試。"},
+{"color":"light_purple","bold":false,"text":"        儘管只能在武器上附加兩種附魔，但影響效果是絕大的，要想通過更加強大的關卡，選擇正確的附魔是必須的。"},"\\n","\\n","\\n",
+{"color":"light_purple","bold":false,"text":"           ───帝國鍛匠"}
+]'
+
+
+
+],title:"附魔鍛造─素材的概念提取",HideFlags:32,author:"Enchanting Forging - Extraction of Material Concepts"}
+
+
+
+
+
+
+
+
+

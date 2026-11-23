@@ -1,0 +1,335 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "                ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 16
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "               ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 15
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "              ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 14
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "             ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 13
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "            ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 12
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "           ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 11
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "          ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 10
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "         ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 9
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "        ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 8
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "       ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 7
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "      ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 6
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "     ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 5
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "    ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 4
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "   ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 3
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "  ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 2
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": " ",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "num"
+										},
+										"score": "zTEST",
+										"scale": 1
+									},
+									"range": 1
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

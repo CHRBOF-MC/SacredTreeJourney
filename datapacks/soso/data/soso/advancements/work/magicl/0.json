@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lightning_rod"
+		},
+		"title": {
+			"translate": "soso.string.5976"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5628",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5977",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5887",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5978",
+				"color": "white"
+			}
+		]
+	},
+	"parent": "soso:work/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

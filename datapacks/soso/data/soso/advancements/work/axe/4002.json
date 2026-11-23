@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_rod"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5464"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5465",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5462",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5466",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5425",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/axe/3002",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

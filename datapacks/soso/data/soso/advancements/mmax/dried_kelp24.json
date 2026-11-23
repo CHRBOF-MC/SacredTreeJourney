@@ -1,0 +1,34 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5403",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5409"
+		},
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"task45": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{dried_kelp24:1b}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:item/mmax/water/dried_kelp24"
+	},
+	"parent": "soso:root"
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:red_wool",
+		"minecraft:ender_chest",
+		"minecraft:bedrock",
+		"minecraft:enchanting_table",
+		"minecraft:blue_wool"
+	]
+}

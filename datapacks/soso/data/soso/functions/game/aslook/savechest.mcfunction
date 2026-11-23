@@ -1,0 +1,25 @@
+execute as @s[tag=!saveitemnow] at @e[limit=1,tag=ramdon] positioned ~ -50 ~ run function soso:game/aslook/savechestb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

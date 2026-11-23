@@ -1,0 +1,23 @@
+
+
+tellraw @p[tag=flyer] [
+
+
+{"text":"怪物名：","bold":true,"color":"light_purple","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=vilshow] CustomName set value '{\"text\":\"怪物A\",\"color\":\"blue\"}'"}},{"selector":"@s"}
+,"\n",{"text":"定義頭盔為主手物品","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.head from entity @s weapon.mainhand"}}
+,"\n",{"text":"定義盔甲為主手物品","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.chest from entity @s weapon.mainhand"}}
+,"\n",{"text":"定義護腿為主手物品","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.legs from entity @s weapon.mainhand"}}
+,"\n",{"text":"定義鞋子為主手物品","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] armor.feet from entity @s weapon.mainhand"}}
+,"\n",{"text":"定義主手為主手物品","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] weapon.mainhand from entity @s weapon.mainhand"}}
+,"\n",{"text":"定義副手為主手物品","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/item replace entity @e[limit=1,sort=nearest,tag=vilshow] weapon.offhand from entity @s weapon.mainhand"}}
+,"\n",{"text":"物件不壞","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=vilshow] run function soso:viler/type/unbreak"}}
+
+
+
+
+]
+
+
+
+
+

@@ -1,0 +1,22 @@
+execute as @e[tag=magicl24003,type=minecraft:marker] at @s run function soso:skill/magic/l/6b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

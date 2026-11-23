@@ -1,0 +1,131 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "soso.string.335",
+									"italic": "false"
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{somob:1b,flyback:1b,EntityTag:{id:\"minecraft:area_effect_cloud\",Duration:1147483647,Tags:[\"somobfirst\",\"somob\"],Radius:0}}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.336",
+										"color": "green",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.337",
+										"color": "aqua",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.338",
+										"color": "gold",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.339",
+										"color": "aqua",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.9",
+										"color": "aqua",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.10",
+										"color": "light_purple",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "mobhpb"
+										},
+										"color": "yellow",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.12",
+										"color": "red",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "mobattb"
+										},
+										"color": "yellow",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.14",
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "mobspeedb"
+										},
+										"color": "yellow",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.9",
+										"color": "aqua",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

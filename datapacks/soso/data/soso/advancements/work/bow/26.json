@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		"announce_to_chat": true,
+		"title": {
+			"translate": "soso.string.5792"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5793",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5794",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5774",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5557",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/bow/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,116 @@
+give @s written_book{pages:
+
+[
+'[
+{"color":"dark_green","bold":true,"text":"       秘術概論"}
+,{"color":"light_purple","bold":false,"text":"    魔力如同空氣廣泛散佈於世界。"}
+,{"color":"light_purple","bold":false,"text":"    但儘管其量之龐大卻難以利用，人們僅能利用自然積澱於自身魔力容器之中的微弱魔力而已，與世界上的魔力總量相比輕如鴻毛。"}
+,{"color":"light_purple","bold":false,"text":"    秘術卻是個完全不同的概念，藉由強力的封魔素材，強行積澱場域魔力，並釋放書中秘術。"},
+""]'
+,'[
+{"color":"light_purple","bold":false,"text":"    雖然會產生些限制性，但卻能僅用一些小小的魔力，發揮巨大的效果。"}
+,{"color":"light_purple","bold":false,"text":"    其限制：必須花費時間積蓄場域魔力，而且區域移動時需要重新聚集場域魔力。使用一本秘術書後，其餘秘術書的魔力也會被釋出。"}
+,{"color":"light_purple","bold":false,"text":"    因此使用強力的秘術必須等待漫長的聚魔時間，若要解決這一問題只得付出代償取代魔力發動秘術。"},
+""]'
+,'[
+{"font":"soso:default","color":"white","text":"\\u101d","hoverEvent":{"action":"show_text","contents":{"text":"秘術鎖鏈","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u101d","hoverEvent":{"action":"show_text","contents":{"text":"秘術鎖鏈","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u101d","hoverEvent":{"action":"show_text","contents":{"text":"秘術鎖鏈","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+"\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"首先要使用秘術必須使用封魔素材製作出秘術書。"},"\\n",
+""]'
+,'[
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u101a","hoverEvent":{"action":"show_text","contents":{"text":"炎蛛之眼","color":"white","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u0010"},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1015","hoverEvent":{"action":"show_text","contents":{"text":"秘術素材","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+"\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"並將對應素材的秘術給封於紙中。"},
+{"font":"minecraft:default","color":"blue","bold":false,"text":"可秘術素材是這些。","hoverEvent":{"action":"show_text","contents":[
+{"text":"盤穴洞根：恢復8點生命，冷卻300秒。","color":"white","bold":"true"},"\\n"
+,{"text":"命脈肉排：增加5點魔攻30秒，冷卻200秒。","color":"white","bold":"true"},"\\n"
+,{"text":"氓騰山果：詠唱速度上升10% 30秒，冷卻200秒。","color":"white","bold":"true"},"\\n"
+,{"text":"魔泥汙骨：魔力消費減少5% 30秒，冷卻100秒。","color":"white","bold":"true"},"\\n"
+,{"text":"銀狼毛皮：移動速度上升10% 30秒，冷卻100秒。","color":"white","bold":"true"},"\\n"
+,{"text":"秘銀錠：盔甲上升2點30秒，冷卻120秒。","color":"white","bold":"true"},"\\n"
+,{"text":"曼陀羅草：發射40傷害單體攻擊魔彈，冷卻150秒。","color":"white","bold":"true"},"\\n"
+,{"text":"惡惑核心：發射40傷害範圍攻擊攻擊魔彈，冷卻300秒。","color":"white","bold":"true"},"\\n"
+]}},"\\n",
+""]'
+,'[
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u0010"},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1015","hoverEvent":{"action":"show_text","contents":{"text":"代償素材","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u1016","hoverEvent":{"action":"show_text","contents":{"text":"秘術封紙","color":"gold","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u101a","hoverEvent":{"action":"show_text","contents":{"text":"炎蛛之眼","color":"white","bold":"true"}}},
+"\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"並將對應素材的代償給封於紙中。"},
+{"font":"minecraft:default","color":"blue","bold":false,"text":"可代償素材是這些。","hoverEvent":{"action":"show_text","contents":[
+{"text":"盤穴洞根：扣6點生命，冷卻-60秒。","color":"white","bold":"true"},"\\n"
+,{"text":"命脈肉排：扣5點魔攻30秒，冷卻-40秒。","color":"white","bold":"true"},"\\n"
+,{"text":"氓騰山果：詠唱速度減少10% 30秒，冷卻-20秒。","color":"white","bold":"true"},"\\n"
+,{"text":"魔泥汙骨：魔力消費增加10% 30秒，冷卻-20秒。","color":"white","bold":"true"},"\\n"
+,{"text":"銀狼毛皮：移動速度下降10% 30秒，冷卻-20秒。","color":"white","bold":"true"},"\\n"
+,{"text":"秘銀錠：盔甲下降2點30秒，冷卻-20秒。","color":"white","bold":"true"},"\\n"
+]}},"\\n",
+""]'
+,'[
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u101e","hoverEvent":{"action":"show_text","contents":{"text":"秘術書《空》","color":"gold","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+{"font":"soso:default","color":"white","text":"\\u102b","hoverEvent":{"action":"show_text","contents":{"text":"秘術或代償","color":"dark_gray","bold":"true"}}},
+"\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"將秘術以及代償組入書本中，總計最多只能組入八個。"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"相同種類的秘術或是代償可將其效果時間以及效果量疊加。"},"\\n",
+""]'
+,'[
+"\\n\\n",
+{"font":"soso:default","color":"white","text":"\\u0010"},
+{"font":"soso:default","color":"white","text":"\\u101e","hoverEvent":{"action":"show_text","contents":{"text":"秘術書","color":"gold","bold":"true"}}},
+"\\n","\\n","\\n","\\n",§r,{"font":"minecraft:default","color":"dark_green","bold":true,"text":"============"},"\\n",
+{"font":"minecraft:default","color":"light_purple","bold":false,"text":"組織完成的秘術書可以透過拆解還原為筆記和空書。"},"\\n",
+""]'
+,'[
+{"color":"light_purple","bold":false,"text":"        組合過多強大秘術只會導致聚魔時間過長而無法使用。"},
+{"color":"light_purple","bold":false,"text":"        適當的組入代償並控制聚魔時間將會使戰力獲得大幅提升。"},"\\n","\\n","\\n",
+{"color":"light_purple","bold":false,"text":"           ───帝國鍛匠"},
+""]'
+
+
+
+],title:"秘術概論─場域魔力的運用",HideFlags:32,author:"Introduction to Sorcery - Utilization of Field Magic"}
+
+
+
+
+
+
+
+
+

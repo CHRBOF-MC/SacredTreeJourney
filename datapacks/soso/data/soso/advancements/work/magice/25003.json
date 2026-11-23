@@ -1,0 +1,28 @@
+{
+	"__comment": "5000",
+	"display": {
+		"icon": {
+			"item": "minecraft:dirt"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5918"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5919",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5920",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magice/24003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

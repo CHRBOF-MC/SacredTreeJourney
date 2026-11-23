@@ -1,0 +1,1 @@
+execute as @e[tag=drahandRIII12,distance=..35,type=minecraft:item_display,limit=1] at @s run tp @e[type=minecraft:slime,distance=..20,tag=hithandR] ^ ^-3 ^

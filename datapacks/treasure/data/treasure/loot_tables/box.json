@@ -1,0 +1,949 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.446",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{bigget:1b,Unbreakable:1b,Enchantments:[{id:\"minecraft:thorns\",lvl:1s}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.447",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.001
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horse_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.448",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{bigget:1b,EntityTag:{Health:80f,Attributes:[{Name:generic.max_health,Base:80d},{Name:generic.movement_speed,Base:0.5d},{Name:horse.jump_strength,Base:1.1d}],Tags:[\"boss4\"],ActiveEffects:[{Id:10,Amplifier:0,Duration:999999,ShowParticles:1,ShowIcon:1}],Tame:1,SaddleItem:{id:saddle,Count:1}}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.449",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.001
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pig_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.450",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{bigget:1b,EntityTag:{Saddle:1,NoGravity:1b,Health:20f,Attributes:[{Name:generic.max_health,Base:20f},{Name:generic.movement_speed,Base:0.5f},{Name:generic.horse.jump_strength,Base:1.1f}],Tags:[\"boss4\"],ActiveEffects:[{Id:10,Amplifier:0,Duration:999999,ShowParticles:1,ShowIcon:1}],Tame:1,SaddleItem:{id:saddle,Count:1}}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.451",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.001
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.452",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{bigget:1b}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.453",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.005
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.454",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{bigget:1b}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.455",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.005
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.456",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{flyback:1b,bigget:1b,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Slot:\"head\",Amount:10,Operation:0,UUID:[I;1014601156,1047442051,1019706195,1851800940]},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Slot:\"head\",Amount:2,Operation:0,UUID:[I;1014601156,1047442051,1019706192,1851800940]}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.457",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.004
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.456",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{flyback:1b,bigget:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Slot:\"chest\",Amount:0.7,Operation:0,UUID:[I;1014601156,1047442050,1019706195,1851800940]},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Slot:\"chest\",Amount:3.0,Operation:0,UUID:[I;1014601156,1047442050,1019706195,1851800940]}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.458",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.004
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.456",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{flyback:1b,bigget:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Slot:\"legs\",Amount:2.0,Operation:0,UUID:[I;1014601156,1047442049,1019706195,1851800940]},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Slot:\"legs\",Amount:3.0,Operation:0,UUID:[I;1014601152,1047442049,1019706195,1851800940]}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.459",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.004
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.456",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{flyback:1b,bigget:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Slot:\"feet\",Amount:0.01,Operation:0,UUID:[I;1014601156,1047442048,1019706195,1851800940]},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Slot:\"feet\",Amount:2,Operation:0,UUID:[I;1014601156,1047442048,1019706195,1851800940]}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.460",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.004
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.461",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:40,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.462",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.003
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.461",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:40,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.462",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.003
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.461",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:40,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.462",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.003
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.461",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:40,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.462",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.003
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_cluster"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.463",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"minecraft:loyalty\",lvl:3s}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.464",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.003
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.03
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.05
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horse_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag:{Tame:1,Tags:[\"copy\"]}}"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.05
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_shovel",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.465",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:40,bigget:1b,Damage:50,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:knockback\",lvl:7s},{id:\"minecraft:efficiency\",lvl:5s}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.466",
+								"bold": true
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.467",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:15,bigget:1b,Damage:40,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:efficiency\",lvl:5s}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.468",
+								"color": "green",
+								"bold": true
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "soso.string.469",
+									"color": "green"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{RepairCost:15,bigget:1b,Damage:40,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:efficiency\",lvl:5s}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "soso.string.470",
+								"color": "green",
+								"bold": true
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.01
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lingering_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.01
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "minecraft:generic.attack_speed",
+									"amount": {
+										"min": -2.6,
+										"max": -2.2
+									},
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "minecraft:generic.attack_damage",
+									"amount": {
+										"min": 5,
+										"max": 6.5
+									},
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{attributelore:1b}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "minecraft:generic.attack_speed",
+									"amount": {
+										"min": -3.3,
+										"max": -2.9
+									},
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "minecraft:generic.attack_damage",
+									"amount": {
+										"min": 7,
+										"max": 8.5
+									},
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{attributelore:1b}"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 6
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 12
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

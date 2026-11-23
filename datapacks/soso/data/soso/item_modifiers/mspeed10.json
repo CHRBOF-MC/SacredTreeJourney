@@ -1,0 +1,6 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Mspeed:-10.0d}"
+	}
+]

@@ -1,0 +1,49 @@
+
+
+scoreboard players set m619sum zTEST -178
+scoreboard players set m619rank zTEST 2
+
+function soso:task/task/m619/sumb
+
+scoreboard players set @e[tag=m619cloud,type=minecraft:area_effect_cloud,distance=..45] m0b -200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

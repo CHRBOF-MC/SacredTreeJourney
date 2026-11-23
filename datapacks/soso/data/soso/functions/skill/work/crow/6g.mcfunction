@@ -1,0 +1,33 @@
+
+
+particle minecraft:dust 1 1 0 5 ~ ~ ~ 0.3 0.3 0.3 0 1 force
+
+
+
+
+
+
+
+execute unless entity @s[distance=..0.3] positioned ^ ^ ^0.3 run function soso:skill/work/crow/6g
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"title": {
+			"translate": "soso.string.5886"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5628",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5506",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5887",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5888",
+				"color": "white"
+			}
+		]
+	},
+	"parent": "soso:work/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

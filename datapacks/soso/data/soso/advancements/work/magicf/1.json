@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5886"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5628",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5506",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5887",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5888",
+				"color": "white"
+			}
+		],
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

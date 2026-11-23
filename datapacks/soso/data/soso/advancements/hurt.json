@@ -1,0 +1,45 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5403",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5404"
+		},
+		"icon": {
+			"item": "minecraft:command_block"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"lucky": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": false
+							},
+							{
+								"id": "minecraft:is_fire",
+								"expected": false
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:skill/hurt/hurt"
+	},
+	"parent": "soso:rootb"
+}

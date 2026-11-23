@@ -1,0 +1,55 @@
+{
+	"__comment": "7003",
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5730"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5737",
+				"color": "dark_blue"
+			},
+			{
+				"translate": "soso.string.5885",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5520",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5424",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5861",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magicf/6003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_scores",
+	"entity": "this",
+	"scores": {
+		"tasksub1": {
+			"min": 0,
+			"max": 100000
+		},
+		"tasksub2": {
+			"min": 0,
+			"max": 100000
+		}
+	}
+}

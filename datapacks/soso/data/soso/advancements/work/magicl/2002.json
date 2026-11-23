@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oxeye_daisy"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5766"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5576",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5433",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5423",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5536",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5957",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magicl/1002",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

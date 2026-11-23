@@ -1,0 +1,109 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dark_oak_sign",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": "§e任務秘錄"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{booksub:1b,killfly:1b,flykill:1b,clearboom:1b,subpos:[705.67d,66.00d,110.48d]}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.22",
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.23",
+										"color": "red",
+										"italic": "false"
+									},
+									{
+										"color": "light_purple",
+										"translate": "soso.string.129",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.44",
+										"color": "light_purple",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "tasksubrun",
+											"objective": "zTEST"
+										},
+										"color": "blue",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.26",
+										"color": "blue",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.27",
+										"color": "black",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.130",
+										"color": "black",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.27",
+										"color": "black",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.29",
+										"color": "dark_blue",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.53",
+										"color": "gold",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.54",
+										"color": "gold",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.55",
+										"color": "gold",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

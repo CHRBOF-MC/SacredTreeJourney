@@ -1,0 +1,119 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dark_oak_sign",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": "§e紅隊倉庫"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{attributetalk:1b}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.328",
+										"color": "gray",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.329",
+										"color": "gray",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.328",
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "att1",
+											"objective": "point"
+										},
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.410",
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "att2",
+											"objective": "point"
+										},
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.331",
+										"color": "dark_green",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.328",
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "speed1",
+											"objective": "point"
+										},
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.330",
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "speed2",
+											"objective": "point"
+										},
+										"color": "dark_green",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.332",
+										"color": "dark_green",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

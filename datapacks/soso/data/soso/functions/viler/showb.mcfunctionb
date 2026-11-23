@@ -1,0 +1,65 @@
+
+
+tellraw @p[tag=flyer] [
+
+
+{"text":"村民名：","bold":true,"color":"light_purple","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] CustomName set value '{\"text\":\"村民A\",\"color\":\"blue\"}'"}},{"selector":"@s"}
+,"\n",{"text":"村民Tags","bold":true,"color":"green","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] Tags prepend value "}},
+{"nbt":"Tags","entity":"@s","bold":false,"color":"white"}
+,"\n",{"text":"消除一個Tags","bold":true,"color":"green","clickEvent":{"action":"suggest_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] if data entity @s Tags[1] run data remove entity @s Tags[-1]"}}
+,"\n",{"text":"主線出場範圍：","bold":true,"color":"dark_red","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] ArmorItems[0].tag.show set value [20.0d,20.0d]"}},
+{"nbt":"ArmorItems[0].tag.show","entity":"@s","bold":false,"color":"white"}
+,"\n",{"text":"《村民生態系》：","bold":true,"color":"gray"}
+,{"text":"雪原","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.type set value \"minecraft:snow\""}}
+,{"text":"、沙漠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.type set value \"minecraft:desert\""}}
+,{"text":"、叢林","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.type set value \"minecraft:jungle\""}}
+,{"text":"、平原","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.type set value \"minecraft:plains\""}}
+,{"text":"、莽原","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.type set value \"minecraft:savanna\""}}
+,{"text":"、沼澤","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.type set value \"minecraft:swamp\""}}
+,{"text":"、針葉林","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.type set value \"minecraft:taiga\""}}
+,"\n",{"text":"《村民職業系》：","bold":true,"color":"gray"}
+,{"text":"盔甲匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:armorer\""}}
+,{"text":"、屠夫","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:butcher\""}}
+,{"text":"、製圖師","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:cartographer\""}}
+,{"text":"、神職人員","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:cleric\""}}
+,{"text":"、農夫","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:farmer\""}}
+,{"text":"、漁夫","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:fisherman\""}}
+,{"text":"、製箭師","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:fletcher\""}}
+,{"text":"、傻子","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:nitwit\""}}
+,{"text":"、皮匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:leatherworker\""}}
+,{"text":"、圖書管理員","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:librarian\""}}
+,{"text":"、石匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:mason\""}}
+,{"text":"、失業","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:none\""}}
+,{"text":"、牧羊人","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:shepherd\""}}
+,{"text":"、工具匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:toolsmith\""}}
+,{"text":"、武器匠","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=viler,type=villager] VillagerData.profession set value \"minecraft:weaponsmith\""}}
+,"\n",{"text":"《村民隱身》：","bold":true,"color":"gray"}
+,{"text":"隱身｜","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/effect give @e[limit=1,sort=nearest,tag=viler,type=villager] minecraft:invisibility 999999 0 true"}}
+,{"text":"｜不隱身","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/effect clear @e[limit=1,sort=nearest,tag=viler,type=villager] minecraft:invisibility"}}
+,"\n",{"text":"《村民替身》：","bold":true,"color":"gray"}
+,{"text":"無、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/tagclear"}}
+,{"text":"殭屍、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/zombie"}}
+,{"text":"安德、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/enderman"}}
+,{"text":"喚魔者、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/evoker"}}
+,{"text":"屍殼、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/husk"}}
+,{"text":"掠奪者、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/pillager"}}
+,{"text":"骷髏、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/skeleton"}}
+,{"text":"衛道士、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/vindicator"}}
+,{"text":"烈焰神、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/blaze"}}
+,{"text":"女巫、","bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/execute as @e[limit=1,sort=nearest,tag=viler,type=villager] at @s run function soso:viler/type/witch"}}
+,"\n",{"text":"《最初新增一筆交易》","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/function soso:viler/shop0"}}
+,"\n",{"text":"《減少最初一筆交易》","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/data remove entity @e[tag=viler,limit=1,sort=nearest,type=villager] Offers.Recipes[0]"}}
+,"\n",{"text":"《減少指定一筆交易》","bold":true,"color":"gray","clickEvent":{"action":"suggest_command","value":"/data remove entity @e[tag=viler,limit=1,sort=nearest,type=villager] Offers.Recipes[0]"}}
+,"\n",{"text":"《新增一筆交易》","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/function soso:viler/shop"}}
+,"\n",{"text":"《減少一筆交易》","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/data remove entity @e[tag=viler,limit=1,sort=nearest,type=villager] Offers.Recipes[-1]"}}
+,"\n",{"text":"將村民訊息存入Marker","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/function soso:viler/marker"}}
+,"\n",{"text":"將村民儲存進蛋中","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/function soso:viler/egg"}}
+
+
+
+]
+
+
+
+
+

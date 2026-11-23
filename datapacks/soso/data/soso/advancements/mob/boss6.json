@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mossy_stone_bricks",
+			"nbt": "{CustomModelData:8}"
+		},
+		"title": {
+			"translate": "soso.string.6054",
+			"color": "gold",
+			"bold": true
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"description": [
+			{
+				"translate": "soso.string.6055",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.6002",
+				"color": "dark_red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/boss5",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

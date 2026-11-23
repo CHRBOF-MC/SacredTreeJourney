@@ -1,0 +1,54 @@
+[
+	{
+		"function": "minecraft:set_enchantments",
+		"enchantments": {
+			"minecraft:protection": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "armor_aaget"
+				},
+				"score": "zTEST"
+			}
+		}
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.armor_toughness",
+				"name": "armor_toughness",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "armor_atget"
+					},
+					"score": "zTEST",
+					"scale": 1
+				},
+				"operation": "addition",
+				"slot": [
+					"chest"
+				]
+			},
+			{
+				"attribute": "minecraft:generic.armor",
+				"name": "armor",
+				"amount": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "armor_aget"
+					},
+					"score": "zTEST",
+					"scale": 1
+				},
+				"operation": "addition",
+				"slot": [
+					"chest"
+				]
+			}
+		]
+	}
+]

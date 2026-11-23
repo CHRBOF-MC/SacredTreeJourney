@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:stone",
+		"minecraft:deepslate",
+		"minecraft:end_stone",
+		"#soso:color",
+		"#soso:wall",
+		"minecraft:netherrack"
+	]
+}

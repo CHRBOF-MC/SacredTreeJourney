@@ -1,0 +1,15 @@
+
+
+tellraw @p[tag=flyer] [
+
+
+{"text":"傳送點名：","bold":true,"color":"light_purple","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=tppoint] CustomName set value '{\"text\":\"【村莊】樹下小鎮─斯諾\",\"color\":\"blue\"}'"}},{"selector":"@e[limit=1,sort=nearest,tag=tppoint]"},"\n",
+{"text":"修改傳送代碼：","bold":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,sort=nearest,tag=tppoint] Tags[0] set value "}}
+,{"nbt":"Tags[0]","entity":"@s","bold":false,"color":"white"}
+
+]
+
+
+
+
+

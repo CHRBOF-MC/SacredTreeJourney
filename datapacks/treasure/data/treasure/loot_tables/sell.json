@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": "§e購買怪物"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Shopsell:1b,buymod:1b,HideFlags:1,Enchantments:[{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}]}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.494",
+										"color": "green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "box"
+										},
+										"color": "green",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

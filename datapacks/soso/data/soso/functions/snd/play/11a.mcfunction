@@ -1,0 +1,11 @@
+execute unless score @s soso_snd_time matches ..-1 unless score @s soso_snd_num matches 24 run function soso:snd/reset
+
+execute unless score @s soso_snd_loop matches 1 run title @s actionbar {"translate":"soso.music.info","with":[{"translate":"soso.music.11a.name"},{"translate":"soso.music.11a.author"}]}
+
+scoreboard players set @s soso_snd_num 24
+stopsound @s record
+execute at @s run playsound adventure:liberame record @s
+scoreboard players set @s soso_snd_time 183
+
+execute unless score @s soso_snd_loop matches 0 run scoreboard players set @s soso_snd_loop 1
+advancement grant @s only soso:snd/11a

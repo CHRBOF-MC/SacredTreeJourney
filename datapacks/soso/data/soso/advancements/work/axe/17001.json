@@ -1,0 +1,55 @@
+{
+	"__comment": "7001",
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_axe"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5537"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5538",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5474",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5437",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5438",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5439",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/axe/16001",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

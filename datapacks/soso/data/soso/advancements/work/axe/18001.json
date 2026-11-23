@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_axe"
+		},
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false,
+		"title": {
+			"translate": "soso.string.5560"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5561",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5562",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5563",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5542",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5439",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/axe/17001",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

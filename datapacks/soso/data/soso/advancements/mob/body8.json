@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword",
+			"nbt": "{CustomModelData:6}"
+		},
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.6066"
+		},
+		"frame": "challenge",
+		"description": [
+			{
+				"translate": "soso.string.6014",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.6067",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.6068",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.6069",
+				"color": "white"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/body7",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

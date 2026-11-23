@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:air"
+		},
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.6035"
+		},
+		"description": [
+			{
+				"translate": "soso.string.6014",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.6036",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.6037",
+				"color": "white"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.5835"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5830",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5472",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/sword/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

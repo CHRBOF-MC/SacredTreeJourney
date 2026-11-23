@@ -1,0 +1,55 @@
+{
+	"__comment": "7001",
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_boots"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5615"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5441",
+				"color": "dark_blue"
+			},
+			{
+				"translate": "soso.string.5775",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5485",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5463",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5774",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/bow/6001",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

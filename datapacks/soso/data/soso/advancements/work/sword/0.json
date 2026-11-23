@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"title": {
+			"translate": "soso.string.5838"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5839",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5629",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5630",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5840",
+				"color": "white"
+			}
+		]
+	},
+	"parent": "soso:work/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

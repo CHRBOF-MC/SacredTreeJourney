@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blackstone_wall"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5593"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5594",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5428",
+				"color": "green"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5434",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5431",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5591",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/crow/26",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

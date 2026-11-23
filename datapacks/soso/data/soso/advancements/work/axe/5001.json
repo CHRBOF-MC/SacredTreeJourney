@@ -1,0 +1,55 @@
+{
+	"__comment": "5001",
+	"display": {
+		"icon": {
+			"item": "minecraft:weeping_vines"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5573"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5484",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5535",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5527",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5424",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5425",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/axe/4001",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diorite_wall"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5763"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5448",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5433",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5434",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5431",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5861",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magicf/2",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

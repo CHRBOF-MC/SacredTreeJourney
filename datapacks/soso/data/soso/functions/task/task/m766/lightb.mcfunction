@@ -1,0 +1,19 @@
+execute as @e[type=minecraft:text_display,tag=m766score] at @s run function soso:task/task/m766/lightc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

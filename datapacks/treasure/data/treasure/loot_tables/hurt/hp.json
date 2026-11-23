@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "set_name",
+							"entity": "this",
+							"name": {
+								"selector": "@p[tag\u003dsadqwsadq]",
+								"extra": [
+									{
+										"font": "sp:default",
+										"translate": "space.-32"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "ab"
+										},
+										"font": "soso:bignumber",
+										"color": "red"
+									},
+									{
+										"font": "sp:default",
+										"translate": "space.-32"
+									}
+								]
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{flykill:1b,hpshow:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

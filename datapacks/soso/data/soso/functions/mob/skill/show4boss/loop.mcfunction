@@ -1,0 +1,24 @@
+
+execute as @e[tag=show4boss,type=#soso:bad] at @s run function soso:mob/skill/show4boss/loopex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

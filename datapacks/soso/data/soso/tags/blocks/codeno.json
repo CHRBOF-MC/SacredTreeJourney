@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:lava",
+		"minecraft:obsidian",
+		"minecraft:bubble_column",
+		"minecraft:crying_obsidian",
+		"minecraft:ancient_debris",
+		"minecraft:water"
+	]
+}

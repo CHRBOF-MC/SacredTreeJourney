@@ -1,0 +1,53 @@
+{
+	"display": {
+		"title": {
+			"translate": "soso.music.info.name",
+			"with": [
+				{
+					"translate": "soso.music.12a.name"
+				},
+				{
+					"translate": "soso.music.12a.author"
+				}
+			],
+			"color": "gold",
+			"bold": true
+		},
+		"description": [
+			{
+				"translate": "soso.music.info.full",
+				"with": [
+					{
+						"translate": "soso.music.12a.name",
+						"color": "blue"
+					},
+					{
+						"translate": "soso.music.12a.author",
+						"color": "yellow"
+					},
+					{
+						"translate": "soso.music.12a.source",
+						"color": "red"
+					}
+				]
+			}
+		],
+		"icon": {
+			"item": "minecraft:jukebox"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/jungle_planks.png"
+	},
+	"parent": "soso:snd/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "soso:snd/play/12a"
+	}
+}

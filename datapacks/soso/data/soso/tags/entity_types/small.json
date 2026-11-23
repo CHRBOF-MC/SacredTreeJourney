@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:cave_spider",
+		"minecraft:wolf",
+		"minecraft:bee",
+		"minecraft:hoglin",
+		"minecraft:zoglin",
+		"minecraft:shulker",
+		"minecraft:fox",
+		"minecraft:phantom",
+		"minecraft:spider",
+		"minecraft:vex",
+		"minecraft:guardian",
+		"minecraft:silverfish",
+		"minecraft:witch"
+	]
+}

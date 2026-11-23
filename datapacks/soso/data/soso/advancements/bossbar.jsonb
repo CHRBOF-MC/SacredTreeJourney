@@ -1,0 +1,34 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "以下犯上",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "對BOSS級怪物造成傷害"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "task45": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[boss4]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "soso:skill/boss4/bossbarzero"
+    },
+    "parent": "soso:root"
+}

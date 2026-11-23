@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_axe",
+			"nbt": "{CustomModelData:5}"
+		},
+		"title": {
+			"translate": "soso.string.6020",
+			"color": "gold",
+			"bold": true
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"description": [
+			{
+				"translate": "soso.string.6021",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.6010",
+				"color": "dark_red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/siue2",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

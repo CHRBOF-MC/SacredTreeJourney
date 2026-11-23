@@ -1,0 +1,55 @@
+{
+	"__comment": "7002",
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_chestplate"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5531"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5459",
+				"color": "dark_green"
+			},
+			{
+				"translate": "soso.string.5532",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5485",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5431",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5425",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/axe/6002",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

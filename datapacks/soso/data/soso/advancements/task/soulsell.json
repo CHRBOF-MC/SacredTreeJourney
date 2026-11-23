@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "vill",
+		"description": "",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "soso:root",
+	"criteria": {
+		"asd": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[soulsell]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:task/task/talk/soulsell"
+	}
+}

@@ -1,0 +1,9 @@
+
+execute store result score num point if entity @e[distance=..20,type=#soso:bad,tag=willkill,tag=hurtkilldown]
+
+
+scoreboard players add num point 1
+
+scoreboard players operation @s hurt /= num point
+
+

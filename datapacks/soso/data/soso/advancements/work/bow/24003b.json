@@ -1,0 +1,43 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5416",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5417"
+		},
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"tpp": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"nbt": "{Tags:[24003on,bow]}"
+				},
+				"damage": {
+					"type": {
+						"is_projectile": true,
+						"direct_entity": {
+							"type": "#minecraft:arrows",
+							"nbt": "{crit:1b}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:skill/work/bow/24003b"
+	},
+	"parent": "soso:root"
+}

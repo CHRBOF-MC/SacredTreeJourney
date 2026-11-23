@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.6022"
+		},
+		"frame": "challenge",
+		"description": [
+			{
+				"translate": "soso.string.6023",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.6024",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.6025",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.6026",
+				"color": "white"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/body6",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

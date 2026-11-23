@@ -1,0 +1,101 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "soso.string.7",
+									"italic": "false"
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{somobtype1:1b,Shopsell:1b}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.8",
+										"color": "green",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.9",
+										"color": "aqua",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.10",
+										"color": "light_purple",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.11",
+										"color": "light_purple",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.12",
+										"color": "red",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.13",
+										"color": "red",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.14",
+										"color": "aqua",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.15",
+										"color": "aqua",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.9",
+										"color": "aqua",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

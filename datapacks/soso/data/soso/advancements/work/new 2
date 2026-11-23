@@ -1,0 +1,59 @@
+            {
+                "text": "幸運：+2\n",
+                "color": "gold"
+            },
+            {
+                "text": "魔力值：+80\n",
+                "color": "light_purple"
+            },
+            {
+                "text": "攻擊力：+8\n",
+                "color": "dark_red"
+            },
+            {
+                "text": "魔法攻擊：+5\n",
+                "color": "dark_blue"
+            },
+            {
+                "text": "防禦力：+2\n",
+                "color": "green"
+            },
+            {
+                "text": "生命力：+8\n",
+                "color": "red"
+            },
+            {
+                "text": "移動力：+20%\n",
+                "color": "aqua"
+            },
+            {
+                "text": "盔甲韌性：+1\n",
+                "color": "dark_green"
+            },
+            {
+                "text": "魔力消耗：-10%\n",
+                "color": "light_purple"
+            },
+            {
+                "text": "攻擊速度：+10%\n",
+                "color": "aqua"
+            },
+            {
+                "text": "吟詠速度：+10%\n",
+                "color": "green"
+            },
+
+
+
+execute if entity @s[advancements={soso:work/sword/18001=true}] run tag @s add 8get
+execute if entity @s[advancements={soso:work/sword/18002=true}] run tag @s add 8get
+execute if entity @s[advancements={soso:work/sword/18003=true}] run tag @s add 8get
+
+
+advancement grant @s[tag=8get] only soso:work/sword/25001
+advancement grant @s[tag=8get] only soso:work/sword/25002
+advancement grant @s[tag=8get] only soso:work/sword/25003
+
+
+tag @s remove 8get
+

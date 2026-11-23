@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:anvil"
+		},
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.5470"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5471",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5472",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/bow/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

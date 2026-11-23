@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		"title": {
+			"translate": "soso.string.5795"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5628",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5506",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5507",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5796",
+				"color": "white"
+			}
+		]
+	},
+	"parent": "soso:work/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

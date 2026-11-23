@@ -1,0 +1,28 @@
+{
+	"__comment": "5000",
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_sensor"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5696"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5697",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5698",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magicw/24003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

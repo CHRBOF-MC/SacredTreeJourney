@@ -1,0 +1,20 @@
+scoreboard players set @s Mapple 100
+scoreboard players set @s Mwheat 100
+scoreboard players set @s spider_eye1 100
+scoreboard players set @s sweet_berries 100
+scoreboard players set @s cooked_porkchop2 100
+scoreboard players set @s Mporkchop 100
+scoreboard players set @s carrot 100
+scoreboard players set @s beetroot_soup 100
+scoreboard players set @s bread1 100
+scoreboard players set @s bread2 100
+scoreboard players set @s cake 100
+scoreboard players set @s glow_berries 100
+scoreboard players set @s honey_bottle 100
+scoreboard players set @s honey_bottle1 200
+scoreboard players set @s sweet_berries2 200
+scoreboard players set @s rotten_flesh 200
+scoreboard players set @s cooked_beef 200
+scoreboard players set @s beetroot2 200
+scoreboard players set @s spider_eye2 200
+function soso:item/mmax/playerreset

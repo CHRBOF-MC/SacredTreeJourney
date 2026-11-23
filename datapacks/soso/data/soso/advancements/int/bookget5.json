@@ -1,0 +1,42 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5405",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5405"
+		},
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"tpp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:written_book"
+						],
+						"count": {
+							"min": 1
+						},
+						"nbt": "{bookget:5b}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:item/craf/bookget5"
+	},
+	"parent": "soso:root"
+}

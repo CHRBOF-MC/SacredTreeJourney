@@ -1,0 +1,95 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:fermented_spider_eye",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "soso.string.478",
+									"color": "gold",
+									"italic": "false"
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Shopsell:1b,playerhp:1b}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.479",
+										"color": "aqua",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.473",
+										"color": "light_purple",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "playerhp"
+										},
+										"color": "yellow",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.480",
+										"color": "gold",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.481",
+										"color": "gold",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.482",
+										"color": "gold",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.483",
+										"color": "gold",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

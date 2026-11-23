@@ -1,0 +1,28 @@
+{
+	"__comment": "5000",
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5786"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5471",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5482",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/bow/8003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

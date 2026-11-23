@@ -1,0 +1,55 @@
+{
+	"__comment": "7003",
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5586"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5453",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5956",
+				"color": "green"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5437",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5466",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5916",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magice/16003",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

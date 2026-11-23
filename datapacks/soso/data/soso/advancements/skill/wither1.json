@@ -1,0 +1,37 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5403",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5404"
+		},
+		"icon": {
+			"item": "minecraft:command_block"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"lucky": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[wither1]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:mob/skill/advancements/wither1"
+	},
+	"parent": "soso:rootb"
+}

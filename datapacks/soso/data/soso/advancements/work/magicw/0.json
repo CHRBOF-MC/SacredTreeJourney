@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_sensor"
+		},
+		"title": {
+			"translate": "soso.string.5720"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5628",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5721",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5722",
+				"color": "dark_red"
+			},
+			{
+				"translate": "soso.string.5723",
+				"color": "white"
+			}
+		]
+	},
+	"parent": "soso:work/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"__comment": "6001",
+	"display": {
+		"icon": {
+			"item": "minecraft:rabbit_foot"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5728"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5420",
+				"color": "dark_blue"
+			},
+			{
+				"translate": "soso.string.5519",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5430",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5424",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5685",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magicw/5001",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"__comment": "6002",
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_block"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5686"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5501",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5519",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5422",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5430",
+				"color": "gold"
+			},
+			{
+				"translate": "soso.string.5431",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.5915",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5426",
+				"color": "red"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:work/magice/5002",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

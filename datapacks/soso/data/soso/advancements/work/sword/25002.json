@@ -1,0 +1,28 @@
+{
+	"__comment": "5000",
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5819"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5820",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5821",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/sword/24002",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

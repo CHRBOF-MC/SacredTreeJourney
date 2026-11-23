@@ -1,0 +1,122 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf1"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf2"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf3"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf4"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf5"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf6"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf7"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf8"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		},
+		{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "craf9"
+				},
+				"score": "zTEST",
+				"scale": 1
+			},
+			"range": 0
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_sensor"
+		},
+		"announce_to_chat": true,
+		"title": {
+			"translate": "soso.string.5751"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5752",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5753",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5754",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5685",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5557",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magicw/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:vine",
+		"minecraft:ladder",
+		"minecraft:wall_torch",
+		"minecraft:redstone_wall_torch",
+		"minecraft:tripwire_hook",
+		"#minecraft:buttons",
+		"#minecraft:banners",
+		"#minecraft:wall_signs",
+		"minecraft:soul_wall_torch"
+	]
+}

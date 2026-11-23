@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:white_wool",
+		"minecraft:white_concrete",
+		"minecraft:white_carpet",
+		"minecraft:white_stained_glass",
+		"minecraft:white_stained_glass_pane",
+		"minecraft:white_shulker_box"
+	]
+}

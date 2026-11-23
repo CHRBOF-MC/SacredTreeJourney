@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"announce_to_chat": true,
+		"title": {
+			"translate": "soso.string.5902"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5419",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5903",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.5758",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5904",
+				"color": "light_purple"
+			},
+			{
+				"translate": "soso.string.5861",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5557",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/magicf/1",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

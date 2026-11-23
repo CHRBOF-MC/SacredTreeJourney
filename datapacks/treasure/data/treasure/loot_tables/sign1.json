@@ -1,0 +1,108 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dark_oak_sign",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": "§e紅隊倉庫"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Shopsell:1b,sign:1b,HideFlags:1,Enchantments:[{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}]}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.16",
+										"color": "white",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.17",
+										"color": "white",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.18",
+										"color": "green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "point"
+										},
+										"color": "green",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.19",
+										"color": "green",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "red",
+											"objective": "point"
+										},
+										"color": "green",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.20",
+										"color": "green",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.21",
+										"color": "light_purple",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "redsky",
+											"objective": "point"
+										},
+										"color": "light_purple",
+										"italic": "false"
+									}
+								],
+								[
+									{
+										"translate": "soso.string.6",
+										"color": "gold",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

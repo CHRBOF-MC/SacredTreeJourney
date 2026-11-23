@@ -1,0 +1,35 @@
+{
+	"__comment": "Made with TheDestruc7i0n\u0027s advancements generator: https://advancements.thedestruc7i0n.ca",
+	"display": {
+		"title": {
+			"translate": "soso.string.5412",
+			"color": "gold",
+			"bold": true
+		},
+		"description": {
+			"translate": "soso.string.5413"
+		},
+		"icon": {
+			"item": "minecraft:command_block"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"event28": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": {
+					"nbt": "{Tags:[w6]}"
+				},
+				"block": "minecraft:brewing_stand"
+			}
+		}
+	},
+	"rewards": {
+		"function": "soso:work/brewing_stand"
+	},
+	"parent": "soso:rootb"
+}

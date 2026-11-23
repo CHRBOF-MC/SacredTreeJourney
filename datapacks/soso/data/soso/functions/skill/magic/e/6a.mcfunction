@@ -1,0 +1,22 @@
+execute as @e[tag=magice24003,type=minecraft:area_effect_cloud] at @s run function soso:skill/magic/e/6b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:soul_torch"
+		},
+		"hidden": true,
+		"title": {
+			"translate": "soso.string.6047"
+		},
+		"frame": "challenge",
+		"description": [
+			{
+				"translate": "soso.string.6014",
+				"color": "yellow"
+			},
+			{
+				"translate": "soso.string.5448",
+				"color": "blue"
+			},
+			{
+				"translate": "soso.string.6048",
+				"color": "white"
+			},
+			{
+				"translate": "soso.string.6049",
+				"color": "white"
+			}
+		]
+	},
+	"rewards": {
+		"function": "soso:item/mmax/playerreset"
+	},
+	"parent": "soso:mob/body3",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

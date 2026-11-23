@@ -1,0 +1,90 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 1.0
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:dark_oak_sign",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": "§e任務秘錄"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{bookmain:1b,killfly:1b,flykill:1b,clearboom:1b,mainPos:[627.47d,96.00d,97.17d]}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "soso.string.27",
+										"color": "black",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.201",
+										"color": "red",
+										"italic": "false",
+										"bold": "false"
+									},
+									{
+										"translate": "soso.string.215",
+										"color": "gold",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.216",
+										"color": "dark_gray",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.44",
+										"color": "light_purple",
+										"italic": "false"
+									},
+									{
+										"score": {
+											"name": "@s",
+											"objective": "taskmainrun"
+										},
+										"color": "blue",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.26",
+										"color": "blue",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.27",
+										"color": "black",
+										"italic": "false"
+									},
+									{
+										"translate": "soso.string.219",
+										"color": "black",
+										"italic": "false"
+									}
+								]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

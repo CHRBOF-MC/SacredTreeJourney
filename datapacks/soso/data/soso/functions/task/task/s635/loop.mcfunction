@@ -1,0 +1,19 @@
+
+
+execute as @e[tag=s635up,type=minecraft:armor_stand] at @s run function soso:task/task/s635/loopb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

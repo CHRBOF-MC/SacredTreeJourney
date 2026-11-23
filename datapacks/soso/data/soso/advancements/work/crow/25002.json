@@ -1,0 +1,28 @@
+{
+	"__comment": "5000",
+	"display": {
+		"icon": {
+			"item": "minecraft:crossbow"
+		},
+		"announce_to_chat": false,
+		"title": {
+			"translate": "soso.string.5600"
+		},
+		"description": [
+			{
+				"translate": "soso.string.5601",
+				"color": "red"
+			},
+			{
+				"translate": "soso.string.5602",
+				"color": "red"
+			}
+		]
+	},
+	"parent": "soso:work/crow/24002",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
